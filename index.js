@@ -33,7 +33,8 @@ function removeLastKitten() {
 }
 
 function removeFirstKitten() {
-  
+  var k = [...kittens]
+  k.splice(0,1)
 }
 
 
